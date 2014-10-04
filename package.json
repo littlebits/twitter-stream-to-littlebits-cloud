@@ -1,0 +1,23 @@
+{
+  "name": "twitter-poll",
+  "version": "0.0.0",
+  "description": "poll twitter & post to cloudBits",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/littlebitselectronics/cloud-app-twitter-poll.git"
+  },
+  "author": "Colin Vernon <colin@littlebits.cc>",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/littlebitselectronics/cloud-app-twitter-poll/issues"
+  },
+  "homepage": "https://github.com/littlebitselectronics/cloud-app-twitter-poll",
+  "dependencies": {
+    "littlebits-cloud-http": "git://github.com/littlebits/cloud-client-api-http",
+    "twitter": "^0.2.12"
+  }
+}
