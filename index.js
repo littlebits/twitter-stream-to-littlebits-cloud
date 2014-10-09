@@ -1,6 +1,5 @@
-// var ping_responder = require('./src/server')
+var ping = require('./src/server-ping')
 var app = require('./src/app')
 
 
 app.init()
-// ping_responder.start()
